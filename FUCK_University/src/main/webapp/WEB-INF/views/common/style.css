@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background: #0057e7;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #003f9e;
+}
+
+.success {
+    padding: 10px;
+    background: #c8f7c5;
+    border-left: 4px solid #3c763d;
+    margin-bottom: 10px;
+}
+
+.error {
+    padding: 10px;
+    background: #f7c5c5;
+    border-left: 4px solid #a94442;
+    margin-bottom: 10px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    margin-top: 20px;
+}
